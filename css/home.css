@@ -23,28 +23,25 @@ nav .logo {
 }
 
 nav {
+  top: 0;
   position: fixed;
   height: 70px;
   width: 100%;
   background: #07689f;
   box-shadow: 0 3px 15px rgba(0,0,0,.4);
-
 }
 
 div {
   color: #bfbbb8 /*dirtywhite*/;
   text-align: center;
-
-}
-
-hr {
-  margin: 0 300px;
 }
 
 #sion {
-  color: #f10ea7/*pink*/;
-  text-align: left; 
-  margin-left: 350px
+  color: #f10ea7 /*pink*/;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 50px 0 50px;
 }
 
 nav ul {
@@ -288,15 +285,13 @@ nav ul ul li a i {
 .abt {
   text-align: left; 
   font-size: 20px; 
-  padding: 20px; 
-  margin: 0 400px;
+  padding: 30px;
 }
 
 .abtt {
   text-align: left; 
   font-size: 20px; 
-  padding: 20px; 
-  margin: 0 500px;
+  padding: 30px; 
 }
 
 footer {
